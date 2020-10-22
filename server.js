@@ -18,6 +18,7 @@ app.get("/", (req, res) => {
 });
 
 const songRouter = require("./controllers/song");
+app.use("/song", songRouter);
 
 app.listen(PORT, () => {
   console.log(`listening in on port: ${PORT}`);
