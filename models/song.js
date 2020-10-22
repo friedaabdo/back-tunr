@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const songSchema = new Schema({
   title: String,
   artist: String,
-  time: Number,
+  time: String,
 });
 
 const Song = mongoose.model("Song", songSchema);
