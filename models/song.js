@@ -10,4 +10,4 @@ const songSchema = new Schema({
 
 const Song = mongoose.model("Song", songSchema);
 
-module.exports = Cat;
+module.exports = Song;
